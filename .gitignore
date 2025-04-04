@@ -1,0 +1,6 @@
+vendor/*
+.bundle
+.ruby-lsp
+Gemfile.lock
+.env
+Makefile
