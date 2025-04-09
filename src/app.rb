@@ -19,15 +19,12 @@ end
 class User < Sequel::Model(DB[:users])
 end
 
-alvaro = User.create(name: 'alvaro')
-nose = User.first
-
 get '/' do
-  'principal sinatra'
+  erb :index
 end
 
 get '/hello' do
-  'hello from sinatra'
+  erb :hello
 end
 
 get '/bye' do
