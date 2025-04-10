@@ -3,4 +3,3 @@ vendor/*
 .ruby-lsp
 Gemfile.lock
 .env
-Makefile
