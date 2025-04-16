@@ -3,3 +3,4 @@ vendor/*
 .ruby-lsp
 Gemfile.lock
 .env
+.$ADS_UML.drawio.bkp
