@@ -5,5 +5,5 @@ Projecto de AyDS de la UNRC, en donde se construira una billetera virtual.
 ### Set Environment
 1. install ruby (with pachage manager to choice)
 2. gem install bundler debug
-3. bundle install --path vendor/bundle (for locally install the gems in the project directorie)
-4. bundle ecex ruby src/app.rb
+3. make install (for locally install the gems in the project directorie)
+4. make run
