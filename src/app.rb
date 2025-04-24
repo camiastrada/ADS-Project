@@ -19,8 +19,8 @@ end
 class User < Sequel::Model(DB[:users])
 end
 
-get '/' do
-  erb :index
+get '/main' do
+  erb :main
 end
 
 get '/hello' do
@@ -30,5 +30,3 @@ end
 get '/bye' do
   'bye sinatra'
 end
-
-
