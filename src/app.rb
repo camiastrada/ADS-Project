@@ -19,14 +19,14 @@ end
 class User < Sequel::Model(DB[:users])
 end
 
+get '/' do
+  erb :loging
+end
+
 get '/main' do
   erb :main
 end
 
-get '/hello' do
-  erb :hello
-end
-
-get '/bye' do
-  'bye sinatra'
+get '/transfer' do
+  erb :transfer
 end
