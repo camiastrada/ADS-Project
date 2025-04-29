@@ -3,6 +3,10 @@ require 'sequel'
 require 'mysql2'
 require 'dotenv/load'
 
+require_relative 'frontend'
+require_relative 'backend/backend'
+
+=begin
 DB = Sequel.connect(
   adapter:  'mysql2',
   host:     ENV['DB_HOST'],
@@ -18,15 +22,5 @@ end
 
 class User < Sequel::Model(DB[:users])
 end
+=end
 
-get '/' do
-  erb :loging
-end
-
-get '/main' do
-  erb :main
-end
-
-get '/transfer' do
-  erb :transfer
-end
